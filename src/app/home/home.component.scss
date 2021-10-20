@@ -1,0 +1,77 @@
+body{
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../../assets/img/thumb-1920-1041825\ \(1\).jpg');
+    background-color: #000000;
+    
+}
+nav{
+    height: 100px;
+    flex-direction: row;
+    text-align: right;
+}
+nav img{
+    margin: 30px;
+    height: 45px;
+}
+nav a{
+    font-family: Uniqueen;
+    text-decoration: none;
+    font-size: small;
+    margin: 25px;
+    letter-spacing: .2rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+#red-line{
+    display: flex;
+    justify-content: right;
+    height:1.7px ;
+    //background-color: #440000;
+}
+#all-text{
+    margin-right: 70px;
+    flex-direction: column;
+    display: flex;
+    
+}
+#subtitle{
+    justify-content: right;
+    flex-direction: row;
+    display: flex;
+    align-content: space-between;
+    margin-top: 37px;
+    letter-spacing: .2rem;
+}
+#actor{
+    font-weight: bold;
+    color: #440000;
+}
+#date{
+    margin-inline-start: 122.5px;
+    margin-inline-end: 50px;
+    font-weight: bold;
+    color: aliceblue;
+}
+#logo{
+    height: 275px;
+    display: flex;
+    justify-content:right;
+}
+h2{
+    font-size: 45px;
+    justify-content: right;
+    display: flex;
+    margin-top: 37px;
+    letter-spacing: 0.37rem;
+    margin-inline-start: 117px;
+    margin-inline-end: 87px;
+    color: aliceblue;
+}
+
+@font-face {
+    font-family: Uniqueen;
+    src: url('../../assets/font/UniqueenBold.ttf')
+}
+
